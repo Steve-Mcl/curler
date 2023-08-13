@@ -1,0 +1,30 @@
+{
+    "name": "@steve-mcl/node-red-curl2flow-plugin",
+    "version": "0.0.1",
+    "description": "Curl to Flow plugin for Node-RED",
+    "keywords": [
+        "node-red",
+        "curl"
+    ],
+    "license": "Apache-2.0",
+    "dependencies": {},
+    "main": "curl-to-flow.html",
+    "node-red": {
+        "plugins": {
+            "curl-to-flow": "curl-to-flow.html"
+        },
+        "version": ">=3.0.0"
+    },
+    "author": "Steve McLaughlin",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "engines": {
+        "node": ">=8.0.0",
+        "npm": ">=5.0.0"
+    }
+}
